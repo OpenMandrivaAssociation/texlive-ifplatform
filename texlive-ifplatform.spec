@@ -1,3 +1,9 @@
+# revision 21156
+# category Package
+# catalog-ctan /macros/latex/contrib/ifplatform
+# catalog-date 2009-09-10 17:35:10 +0200
+# catalog-license lppl
+# catalog-version 0.3a
 Name:		texlive-ifplatform
 Version:	0.3a
 Release:	1
@@ -49,6 +55,7 @@ classes of Unix systems.
 #- source
 %doc %{_texmfdistdir}/source/latex/ifplatform/ifplatform.dtx
 %doc %{_texmfdistdir}/source/latex/ifplatform/ifplatform.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ classes of Unix systems.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
