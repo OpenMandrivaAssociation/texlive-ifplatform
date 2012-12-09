@@ -55,3 +55,17 @@ classes of Unix systems.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-2
++ Revision: 752724
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-1
++ Revision: 718702
+- texlive-ifplatform
+- texlive-ifplatform
+- texlive-ifplatform
+- texlive-ifplatform
+
