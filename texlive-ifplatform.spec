@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 0.3a
 Name:		texlive-ifplatform
-Version:	0.3a
-Release:	10
+Version:	0.4a
+Release:	1
 Summary:	Conditionals to test which platform is being used
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifplatform
