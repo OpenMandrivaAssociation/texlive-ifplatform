@@ -1,6 +1,6 @@
 Name:		texlive-ifplatform
 Version:	45533
-Release:	1
+Release:	2
 Summary:	Conditionals to test which platform is being used
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifplatform
