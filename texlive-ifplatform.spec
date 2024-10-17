@@ -3,7 +3,7 @@ Version:	45533
 Release:	2
 Summary:	Conditionals to test which platform is being used
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifplatform
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ifplatform
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ifplatform.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ifplatform.doc.r%{version}.tar.xz
